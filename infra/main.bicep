@@ -66,7 +66,7 @@ var deployments = [
       name: 'gpt-4o'
       version: '2024-05-13'
     }
-    capacity: 40
+    capacity: 8
   }
   {
     name: 'text-embedding-ada-002'
@@ -90,7 +90,7 @@ var userManagedIdentityName = '${abbrs.managedIdentityUserAssignedIdentities}${r
 var apiManagementServiceName = '${abbrs.apiManagementService}${resourceToken}'
 var storageAccountName = '${abbrs.storageStorageAccounts}${resourceToken}'
 var searchServiceName = '${abbrs.searchSearchServices}${resourceToken}'
-var openAIName = 'openai-${resourceToken}'
+var openAIName = 'openaizz-${resourceToken}'
 var speechServiceName = '${abbrs.cognitiveServicesSpeech}${resourceToken}'
 var languageServiceName = '${abbrs.cognitiveServicesTextAnalytics}${resourceToken}'
 var registryName = '${abbrs.containerRegistryRegistries}${resourceToken}'
